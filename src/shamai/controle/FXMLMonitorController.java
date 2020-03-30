@@ -12,6 +12,7 @@ import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;
 import shamai.Shamai;
+import shamai.audio.Audio;
 import shamai.efeito.ScaleTransitionUtil;
 import shamai.modelo.Cliente;
 import shamai.servico.ClienteServico;
@@ -62,6 +63,7 @@ public class FXMLMonitorController extends ComponentesTelaMonitor implements Ini
             this.labelSenhaPrincipal.setText(c.getList().get(0).getSenha());
             ScaleTransition scaleTransition = ScaleTransitionUtil.getScaleTransition(ancoraSenhaPrincipal);
             scaleTransition.play();
+            Audio.getAudio().tocar();
         });
 
         this.ancoraPrincipal.setOnMouseClicked(evt -> {

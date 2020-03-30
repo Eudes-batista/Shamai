@@ -8,6 +8,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.stage.Stage;
 import shamai.Shamai;
+import shamai.audio.Audio;
 import shamai.modelo.Cliente;
 import shamai.servico.ClienteServico;
 import shamai.util.PlatformSystem;
@@ -38,6 +39,7 @@ public class FXMLPrincipalController extends ComponentesTelaPrincipal implements
         this.labelSair.setOnMouseClicked(evt -> {
             System.exit(0);
             ClienteServico.setClientes(null);
+            Audio.setAudio(null);
         });
         this.labelMinimizar.setOnMouseClicked(evt -> ((Stage) this.ancoraPrincipal.getScene().getWindow()).setIconified(true));
         PlatformSystem.addHourLabel(this.labelHoraPrincipal);
@@ -84,7 +86,7 @@ public class FXMLPrincipalController extends ComponentesTelaPrincipal implements
         if (indice >= 0) {
             Cliente clientePrincipal = this.clientes.get(0);
             this.clientes.set(indice, clientePrincipal);
-            this.clientes.set(0, cliente);
+            this.clientes.set(0, cliente);            
             return;
         }
         this.clientes.add(0, cliente);
