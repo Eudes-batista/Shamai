@@ -70,6 +70,7 @@ public class FXMLMonitorController extends ComponentesTelaMonitor implements Ini
                 Shamai.getSenhaCliente().setMaximized(true);
             }
         });
+        this.labelSenhaPrincipal.setText("000");
     }
 
 }
