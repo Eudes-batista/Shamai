@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #A82F26;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shamai.visao.FXMLMonitorController">
+   <children>
+      <AnchorPane layoutX="73.0" layoutY="109.0" prefHeight="573.0" prefWidth="625.0" style="-fx-background-color: #A82F26;">
+         <effect>
+            <DropShadow color="#240505f0" height="50.0" offsetX="2.0" offsetY="2.0" radius="24.5" width="50.0" />
+         </effect>
+         <children>
+            <Label alignment="CENTER" layoutX="249.0" layoutY="59.0" prefHeight="190.0" prefWidth="625.0" text="Senha" textFill="WHITE" AnchorPane.bottomAnchor="367.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="Arial Black" size="70.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="5.0" layoutY="195.0" prefHeight="301.0" prefWidth="625.0" text="257" textFill="WHITE" AnchorPane.bottomAnchor="61.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="195.0">
+               <font>
+                  <Font name="Arial Black" size="200.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <VBox alignment="CENTER" layoutX="719.0" layoutY="116.0" prefHeight="573.0" prefWidth="284.0" spacing="10.0">
+         <children>
+            <AnchorPane prefHeight="156.0" prefWidth="241.0" style="-fx-background-color: #A82F26;">
+               <effect>
+                  <DropShadow color="#362929d9" offsetX="2.0" offsetY="2.0" />
+               </effect>
+               <children>
+                  <Label layoutY="6.0" text="18:37:52" textFill="WHITE" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                  <Label alignment="CENTER" layoutX="75.0" layoutY="26.0" prefHeight="75.0" prefWidth="241.0" text="257" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+                     <font>
+                        <Font name="Arial Black" size="45.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="124.0" prefWidth="241.0" style="-fx-background-color: #A82F26;">
+               <effect>
+                  <DropShadow color="#362929d9" offsetX="2.0" offsetY="2.0" />
+               </effect>
+               <children>
+                  <Label layoutY="6.0" text="18:37:52" textFill="WHITE" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                  <Label alignment="CENTER" layoutX="75.0" layoutY="26.0" prefHeight="75.0" prefWidth="241.0" text="257" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+                     <font>
+                        <Font name="Arial Black" size="45.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="203.0" prefHeight="124.0" prefWidth="241.0" style="-fx-background-color: #A82F26;">
+               <effect>
+                  <DropShadow color="#362929d9" offsetX="2.0" offsetY="2.0" />
+               </effect>
+               <children>
+                  <Label layoutY="6.0" text="18:37:52" textFill="WHITE" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                  <Label alignment="CENTER" layoutX="75.0" layoutY="26.0" prefHeight="75.0" prefWidth="241.0" text="257" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+                     <font>
+                        <Font name="Arial Black" size="45.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="10.0" layoutY="337.0" prefHeight="124.0" prefWidth="241.0" style="-fx-background-color: #A82F26;">
+               <effect>
+                  <DropShadow color="#362929d9" offsetX="2.0" offsetY="2.0" />
+               </effect>
+               <children>
+                  <Label layoutY="6.0" text="18:37:52" textFill="WHITE" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
+                  <Label alignment="CENTER" layoutX="75.0" layoutY="26.0" prefHeight="75.0" prefWidth="241.0" text="257" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+                     <font>
+                        <Font name="Arial Black" size="45.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <Label layoutX="15.0" layoutY="716.0" text="18:45:21" textFill="WHITE" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0">
+         <font>
+            <Font name="Arial Black" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="48.0" fitWidth="164.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/logo_shama_branco.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="762.0" layoutY="77.0" prefHeight="38.0" prefWidth="241.0" text="Últimas Senhas" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

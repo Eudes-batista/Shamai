@@ -1,0 +1,27 @@
+.bttopo{
+    -fx-background-color: #FFF;
+    -fx-text-fill: #A82F26;
+    -fx-font-weight:bold;
+    -fx-background-radius:3px;
+    -fx-font-size:11pt;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 5, 0.0, 0,1);
+}
+.bttabela-edit,.bttabela-trash{
+    -fx-background-color: #A82F26;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-size: 15px;
+    -fx-background-radius:3px;
+    -fx-max-width:50px !important;
+    -fx-font-size:11pt;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 5, 0.0, 0,1);
+}
+.bttabela-edit{
+   -fx-background-image: url('../imagens/edit.png');
+}
+.bttabela-trash{
+    -fx-background-image: url('../imagens/trash.png');
+}
+
+
+
