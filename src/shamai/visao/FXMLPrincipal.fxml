@@ -29,7 +29,7 @@
          <children>
             <AnchorPane prefHeight="670.0" prefWidth="741.0" style="-fx-background-color: #A82F26; -fx-border-radius: 5px;">
                <children>
-                  <Label fx:id="labelHoraPrincipal" alignment="CENTER_RIGHT" layoutX="595.0" layoutY="612.0" prefHeight="58.0" prefWidth="730.0" style="-fx-text-fill: #FFF;" text="18:32:57" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="612.0">
+                  <Label fx:id="labelHoraPrincipal" alignment="CENTER_RIGHT" layoutX="595.0" layoutY="612.0" prefHeight="58.0" prefWidth="730.0" style="-fx-text-fill: #FFF;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="612.0">
                      <font>
                         <Font name="Arial Black" size="25.0" />
                      </font>
@@ -65,12 +65,12 @@
                <children>
                   <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="247.0" prefWidth="250.0" style="-fx-background-color: #A82F26; -fx-border-radius: 5px;">
                      <children>
-                        <Label fx:id="labelHoraSenha1" layoutX="14.0" layoutY="6.0" style="-fx-text-fill: #fff;" text="18:32:57">
+                        <Label fx:id="labelHoraSenha1" layoutX="14.0" layoutY="6.0" style="-fx-text-fill: #fff;">
                            <font>
                               <Font size="25.0" />
                            </font>
                         </Label>
-                        <Label fx:id="labelSenha1" alignment="CENTER" layoutX="187.0" layoutY="38.0" prefHeight="132.0" prefWidth="250.0" style="-fx-text-fill: #fff;" text="257" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="38.0">
+                        <Label fx:id="labelSenha1" alignment="CENTER" layoutX="187.0" layoutY="38.0" prefHeight="132.0" prefWidth="250.0" style="-fx-text-fill: #fff;" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="38.0">
                            <font>
                               <Font name="Arial Black" size="45.0" />
                            </font>
@@ -82,12 +82,12 @@
                   </AnchorPane>
                   <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="131.0" prefWidth="250.0" style="-fx-background-color: #A82F26; -fx-border-radius: 5px;">
                      <children>
-                        <Label fx:id="labelHoraSenha2" layoutX="14.0" layoutY="6.0" style="-fx-text-fill: #fff;" text="18:32:57">
+                        <Label fx:id="labelHoraSenha2" layoutX="14.0" layoutY="6.0" style="-fx-text-fill: #fff;">
                            <font>
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Label fx:id="labelSenha2" alignment="CENTER" layoutX="187.0" layoutY="27.0" prefHeight="91.0" prefWidth="250.0" style="-fx-text-fill: #fff;" text="257" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
+                        <Label fx:id="labelSenha2" alignment="CENTER" layoutX="187.0" layoutY="27.0" prefHeight="91.0" prefWidth="250.0" style="-fx-text-fill: #fff;" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
                            <font>
                               <Font name="Arial Black" size="25.0" />
                            </font>
@@ -99,12 +99,12 @@
                   </AnchorPane>
                   <AnchorPane layoutX="10.0" layoutY="221.0" prefHeight="131.0" prefWidth="250.0" style="-fx-background-color: #A82F26; -fx-border-radius: 5px;">
                      <children>
-                        <Label fx:id="labelHoraSenha3" layoutX="14.0" layoutY="6.0" style="-fx-text-fill: #fff;" text="18:32:57">
+                        <Label fx:id="labelHoraSenha3" layoutX="14.0" layoutY="6.0" style="-fx-text-fill: #fff;">
                            <font>
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Label fx:id="labelSenha3" alignment="CENTER" layoutX="187.0" layoutY="27.0" prefHeight="91.0" prefWidth="250.0" style="-fx-text-fill: #fff;" text="257" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
+                        <Label fx:id="labelSenha3" alignment="CENTER" layoutX="187.0" layoutY="27.0" prefHeight="91.0" prefWidth="250.0" style="-fx-text-fill: #fff;" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
                            <font>
                               <Font name="Arial Black" size="25.0" />
                            </font>
@@ -116,12 +116,12 @@
                   </AnchorPane>
                   <AnchorPane layoutX="10.0" layoutY="362.0" prefHeight="131.0" prefWidth="250.0" style="-fx-background-color: #A82F26; -fx-border-radius: 5px;">
                      <children>
-                        <Label fx:id="labelHoraSenha4" layoutX="14.0" layoutY="6.0" style="-fx-text-fill: #fff;" text="18:32:57">
+                        <Label fx:id="labelHoraSenha4" layoutX="14.0" layoutY="6.0" style="-fx-text-fill: #fff;">
                            <font>
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Label fx:id="labelSenha4" alignment="CENTER" layoutX="187.0" layoutY="27.0" prefHeight="91.0" prefWidth="250.0" style="-fx-text-fill: #fff;" text="257" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
+                        <Label fx:id="labelSenha4" alignment="CENTER" layoutX="187.0" layoutY="27.0" prefHeight="91.0" prefWidth="250.0" style="-fx-text-fill: #fff;" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="27.0">
                            <font>
                               <Font name="Arial Black" size="25.0" />
                            </font>
