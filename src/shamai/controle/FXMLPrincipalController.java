@@ -79,7 +79,15 @@ public class FXMLPrincipalController extends ComponentesTelaPrincipal implements
     }
 
     private void adicionarPedido() {
-        this.clientes.add(0, new Cliente(this.textFieldNumeroPedido.getText(), LocalTime.now()));
+        Cliente cliente = new Cliente(this.textFieldNumeroPedido.getText(), LocalTime.now());
+        int indice = this.clientes.indexOf(cliente);
+        if (indice >= 0) {
+            Cliente clientePrincipal = this.clientes.get(0);
+            this.clientes.set(indice, clientePrincipal);
+            this.clientes.set(0, cliente);
+            return;
+        }
+        this.clientes.add(0, cliente);
     }
 
     private void removendoCliente() {
