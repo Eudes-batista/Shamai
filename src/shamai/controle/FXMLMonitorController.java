@@ -7,11 +7,12 @@ package shamai.controle;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.animation.ScaleTransition;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
-
 import javafx.fxml.Initializable;
 import shamai.Shamai;
+import shamai.efeito.ScaleTransitionUtil;
 import shamai.modelo.Cliente;
 import shamai.servico.ClienteServico;
 import shamai.util.PlatformSystem;
@@ -56,8 +57,11 @@ public class FXMLMonitorController extends ComponentesTelaMonitor implements Ini
         this.listaCliente.setClientes(this.clientes);
 
         this.clientes.addListener((ListChangeListener.Change<? extends Cliente> c) -> {
+            this.ancoraSenhaPrincipal.setVisible(true);
             this.listaCliente.preencherClientes();
             this.labelSenhaPrincipal.setText(c.getList().get(0).getSenha());
+            ScaleTransition scaleTransition = ScaleTransitionUtil.getScaleTransition(ancoraSenhaPrincipal);
+            scaleTransition.play();
         });
 
         this.ancoraPrincipal.setOnMouseClicked(evt -> {
@@ -70,7 +74,6 @@ public class FXMLMonitorController extends ComponentesTelaMonitor implements Ini
                 Shamai.getSenhaCliente().setMaximized(true);
             }
         });
-        this.labelSenhaPrincipal.setText("000");
     }
 
 }
