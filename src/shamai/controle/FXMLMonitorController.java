@@ -10,7 +10,10 @@ import java.util.ResourceBundle;
 import javafx.animation.ScaleTransition;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
 import shamai.Shamai;
 import shamai.audio.Audio;
 import shamai.efeito.ScaleTransitionUtil;
@@ -29,6 +32,38 @@ public class FXMLMonitorController extends ComponentesTelaMonitor implements Ini
 
     private ObservableList<Cliente> clientes;
     private ListaCliente listaCliente;
+    @FXML
+    private AnchorPane ancoraPrincipal;
+    @FXML
+    private AnchorPane ancoraSenhaPrincipal;
+    @FXML
+    private Label labelSenhaPrincipal;
+    @FXML
+    private AnchorPane ancoraSenha1;
+    @FXML
+    private Label labelHoraSenha1;
+    @FXML
+    private Label labelSenha1;
+    @FXML
+    private AnchorPane ancoraSenha2;
+    @FXML
+    private Label labelHoraSenha2;
+    @FXML
+    private Label labelSenha2;
+    @FXML
+    private AnchorPane ancoraSenha3;
+    @FXML
+    private Label labelHoraSenha3;
+    @FXML
+    private Label labelSenha3;
+    @FXML
+    private AnchorPane ancoraSenha4;
+    @FXML
+    private Label labelHoraSenha4;
+    @FXML
+    private Label labelSenha4;
+    @FXML
+    private Label labelHoraPrincipal;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
